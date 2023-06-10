@@ -30,3 +30,39 @@ Sole objective of BackPropagation is to update the weights so that desired loss 
 Thus in backpropagation, we follow the same path for forward propagation except in backward direction.
 
 - Weights are updated as `wn' = wn - learning_rate * delta change in loss with respect to wn`
+
+
+
+### Change in graph based on learning rate
+
+
+learning rate = 0.1
+
+<img width="490" alt="Screen Shot 2023-06-10 at 7 27 58 AM" src="https://github.com/kurchi1205/ERA-S6-Assignment/assets/40196782/9a5eb173-c032-4d39-8f33-e72cba989ad9">
+
+learning rate = 0.2
+
+<img width="487" alt="Screen Shot 2023-06-10 at 7 21 28 AM" src="https://github.com/kurchi1205/ERA-S6-Assignment/assets/40196782/b43b2684-1854-4ea5-9961-af6b046e2f74">
+
+
+learning rate = 0.5
+
+<img width="489" alt="Screen Shot 2023-06-10 at 7 22 49 AM" src="https://github.com/kurchi1205/ERA-S6-Assignment/assets/40196782/a60d203f-8023-43a5-ab5f-724cfcb8b3f6">
+
+
+learning rate = 0.8
+
+<img width="485" alt="Screen Shot 2023-06-10 at 7 24 27 AM" src="https://github.com/kurchi1205/ERA-S6-Assignment/assets/40196782/cbe69608-0035-44a9-84f9-2a9059dcb49a">
+
+
+learning rate = 1
+
+<img width="486" alt="Screen Shot 2023-06-10 at 7 26 23 AM" src="https://github.com/kurchi1205/ERA-S6-Assignment/assets/40196782/11396389-35ca-4824-8bf5-4ba6c12de8af">
+
+learning rate = 2
+
+<img width="490" alt="Screen Shot 2023-06-10 at 7 27 19 AM" src="https://github.com/kurchi1205/ERA-S6-Assignment/assets/40196782/dee37c14-cb6c-4e17-b5fd-5744a2cdf29c">
+
+
+Thus we see that as learning rate increases the graph falls steeply which means the rate of change increases if we increase the learning rate. Too small a rate will take a lot of time to converge, too high a rate will converge instantly. Optimal value is desired.
+
